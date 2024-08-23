@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bogo-container">
+      <h1>YAY! It's BOGO</h1>
+      <div class="offer-section">
+        <div class="offer-card popular">
+          <div class="offer-badge">30% Off</div>
+          <input type="radio" id="offer1" name="offer" class="offer-radio" />
+          <div class="offer-details">
+            <p>Buy 1 Get 2</p>
+            <p class="price">$18.00 USD</p>
+            <div class="selector" id="selector1" style="display: none;">
+                <div class="selector-group">
+                    <div class="selector-item">
+                      <label for="size1">Size</label>
+                      <select id="size1">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                    </div>
+                    <div class="selector-item">
+                      <label for="color2">Color</label>
+                      <select id="color2">
+                        <option value="black">Black</option>
+                        <option value="white">White</option>
+                      </select>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="offer-card popular">
+            <div class="offer-badge">30% Off</div>
+            <input type="radio" id="offer2" name="offer" class="offer-radio" />
+            <div class="offer-details">
+              <p>Buy 2 Get 4</p>
+              <p class="price">$24.00 USD</p>
+              <div class="selector" id="selector2" style="display: none;">
+                <div class="selector-group">
+                  <div class="selector-item">
+                    <label for="size2">Size</label>
+                    <select id="size2">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                    </select>
+                  </div>
+                  <div class="selector-item">
+                    <label for="color2">Color</label>
+                    <select id="color2">
+                      <option value="black">Black</option>
+                      <option value="white">White</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <div class="offer-card special">
+          <div class="offer-badge">30% Off</div>
+          <input type="radio" id="offer3" name="offer" class="offer-radio" />
+          <div class="offer-details">
+            <p>Buy 3 Get 6 <span class="discount-label">10% Off</span></p>
+            <p class="price"><s>$40.00 USD</s> $36.00 USD</p>
+            <div class="selector" id="selector3" style="display: none;">
+                <div class="selector-group">
+                    <div class="selector-item">
+                      <label for="size3">Size</label>
+                      <select id="size3">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                    </div>
+                    <div class="selector-item">
+                      <label for="color2">Color</label>
+                      <select id="color2">
+                        <option value="black">Black</option>
+                        <option value="white">White</option>
+                      </select>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="total-section">
+        <p id="total_price">Free Delivery Total: $18.00 USD</p>
+        
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
